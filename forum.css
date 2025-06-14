@@ -1,1 +1,20 @@
-h1 { color: cyan; }
+body.background {
+  background: radial-gradient(circle at top, #1e1e40, #000);
+  color: white;
+  font-family: sans-serif;
+}
+.forum-wrapper {
+  padding: 2em;
+  max-width: 700px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+input, button {
+  padding: 10px;
+  margin-top: 1em;
+  font-size: 1em;
+}
+#posts-container {
+  margin-top: 2em;
+}

@@ -1,1 +1,23 @@
-<!DOCTYPE html><html><head><title>Forum</title></head><body><h1>Forum</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forum</title>
+  <link href="forum.css" rel="stylesheet" />
+</head>
+<body class="background">
+  <div class="forum-wrapper frosted-glass">
+    <h1>Forums!!</h1>
+    <p>hi and welcome to the forums!</p>
+    <iframe src="https://www3.cbox.ws/box/?boxid=3545368&boxtag=tb6hxV" width="100%" height="350" frameborder="0"></iframe>
+    <h2>What do you want to say?</h2>
+    <form id="post-form">
+      <input type="text" id="post-input" placeholder="Write something..." required>
+      <button type="submit">Post</button>
+    </form>
+    <div id="posts-container"></div>
+  </div>
+  <script src="forum.js"></script>
+</body>
+</html>

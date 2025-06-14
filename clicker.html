@@ -1,1 +1,23 @@
-<!DOCTYPE html><html><head><title>Clicker</title></head><body><h1>Click Game</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker Game</title>
+  <link href="style5.css" rel="stylesheet">
+</head>
+<body class="background">
+  <div class="wrapper frosted-glass">
+    <h1>Coin Clicker</h1>
+    <h2 id="coin-count">Coins: 0</h2>
+    <button id="click-button">🪙 Click Me!</button>
+    <div class="upgrades">
+      <button id="upgrade-click">Upgrade Click (+1) – Cost: 10</button>
+      <button id="upgrade-auto">Auto Clicker (+1/sec) – Cost: 50</button>
+    </div>
+    <button id="save-button">Save Now</button>
+    <div class="autoclicker-row" id="autoclickers"></div>
+  </div>
+  <script src="clicker.js"></script>
+</body>
+</html>
